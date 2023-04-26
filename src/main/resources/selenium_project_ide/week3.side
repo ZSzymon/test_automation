@@ -1,0 +1,63 @@
+{
+  "id": "3bb07a08-0439-4410-9a01-118d3a6363cb",
+  "version": "2.0",
+  "name": "week3",
+  "url": "https://allegro.pl",
+  "tests": [{
+    "id": "68fd1712-44e6-48bb-8c98-684d9d420447",
+    "name": "allegro_find",
+    "commands": [{
+      "id": "c679e6dc-9357-4863-bb30-6a9f81d2c859",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cccddbb9-24b0-4a6b-8ccb-9d9662c12312",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bba6c649-01a2-493e-a388-74efe905d401",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gwarancja najniższej ceny",
+      "targets": [
+        ["linkText=Gwarancja najniższej ceny", "linkText"],
+        ["css=.mp7g_oh:nth-child(1) > .mj9z_5r", "css:finder"],
+        ["xpath=//a[contains(text(),'Gwarancja najniższej ceny')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/strefaokazji/gwarancja-ceny')]", "xpath:href"],
+        ["xpath=//ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gwarancja najniższej ceny')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fbb6adc-aaed-4493-af0e-d7aa906265a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Strefa Okazji",
+      "targets": [
+        ["linkText=Strefa Okazji", "linkText"],
+        ["css=.mp7g_oh:nth-child(2) > .l1fas", "css:finder"],
+        ["xpath=//a[contains(text(),'Strefa Okazji')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/strefaokazji')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Strefa Okazji')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "66568b4d-25ef-4c4e-a18a-2ec1f644a03e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://help.medium.com/", "https://allegro.pl/"],
+  "plugins": []
+}
