@@ -1,4 +1,4 @@
-package org.zywko.book_store.book;
+package org.zywko.week_2.book_store.book;
 
 public class BookDTO {
     private String title;

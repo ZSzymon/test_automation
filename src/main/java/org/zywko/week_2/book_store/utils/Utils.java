@@ -1,4 +1,4 @@
-package org.zywko.book_store.utils;
+package org.zywko.week_2.book_store.utils;
 
 import java.util.UUID;
 

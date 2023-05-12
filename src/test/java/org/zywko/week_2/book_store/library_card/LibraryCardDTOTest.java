@@ -1,9 +1,10 @@
 package org.zywko.book_store.library_card;
 
 import org.junit.Test;
-import org.zywko.book_store.book.BookDTO;
-import org.zywko.book_store.reader.ReaderDTO;
-import org.zywko.book_store.utils.Utils;
+import org.zywko.week_2.book_store.book.BookDTO;
+import org.zywko.week_2.book_store.library_card.LibraryCardDTO;
+import org.zywko.week_2.book_store.reader.ReaderDTO;
+import org.zywko.week_2.book_store.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

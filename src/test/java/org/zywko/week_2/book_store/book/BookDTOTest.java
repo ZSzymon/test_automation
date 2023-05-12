@@ -1,7 +1,7 @@
 package org.zywko.book_store.book;
 
-import junit.framework.TestCase;
 import org.junit.Test;
+import org.zywko.week_2.book_store.book.BookDTO;
 
 import static org.junit.Assert.assertEquals;
 

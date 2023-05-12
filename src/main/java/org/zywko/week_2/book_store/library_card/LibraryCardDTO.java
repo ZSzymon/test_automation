@@ -1,9 +1,8 @@
-package org.zywko.book_store.library_card;
+package org.zywko.week_2.book_store.library_card;
 
-import org.zywko.book_store.reader.ReaderDTO;
-import org.zywko.book_store.book.BookDTO;
+import org.zywko.week_2.book_store.reader.ReaderDTO;
+import org.zywko.week_2.book_store.book.BookDTO;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 

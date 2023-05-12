@@ -1,8 +1,8 @@
-package org.zywko.book_store.library;
+package org.zywko.week_2.book_store.library;
 
-import org.zywko.book_store.library_card.LibraryCardDTO;
-import org.zywko.book_store.reader.ReaderDTO;
-import org.zywko.book_store.book.BookDTO;
+import org.zywko.week_2.book_store.library_card.LibraryCardDTO;
+import org.zywko.week_2.book_store.reader.ReaderDTO;
+import org.zywko.week_2.book_store.book.BookDTO;
 
 import java.util.ArrayList;
 import java.util.HashMap;

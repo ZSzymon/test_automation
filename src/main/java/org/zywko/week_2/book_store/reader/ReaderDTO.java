@@ -1,7 +1,7 @@
-package org.zywko.book_store.reader;
+package org.zywko.week_2.book_store.reader;
 
-import org.zywko.book_store.library_card.LibraryCardDTO;
-import org.zywko.book_store.utils.Utils;
+import org.zywko.week_2.book_store.library_card.LibraryCardDTO;
+import org.zywko.week_2.book_store.utils.Utils;
 
 public class ReaderDTO {
     private String name;

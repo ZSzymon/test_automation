@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.zywko.book_store.library_card.LibraryCardDTO;
-import org.zywko.book_store.reader.ReaderDTO;
+import org.zywko.week_2.book_store.library_card.LibraryCardDTO;
+import org.zywko.week_2.book_store.reader.ReaderDTO;
 
 public class ReaderDTOTest {
     private ReaderDTO reader;
