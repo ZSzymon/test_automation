@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "fedaed62-ff4c-4bcc-be1d-04e10d21f3cb",
+		"name": "RestCountries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "name_poland",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/pol",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"pol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "capital_poland",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/pol",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"pol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "name_france",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/France",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"France"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "name_ger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/Germany",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"Germany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "po polsku",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/Germany",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"Germany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Region europe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/Germany",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"Germany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sub region east",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/subregion/East",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"subregion",
+						"East"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sub region east Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/Germany",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"Germany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Region America",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/name/Germany",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"name",
+						"Germany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Letest added enpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/independent?status=true",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"independent"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://restcountries.com/v3.1",
+			"type": "default"
+		}
+	]
+}
