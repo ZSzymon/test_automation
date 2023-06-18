@@ -34,6 +34,18 @@
             <artifactId>selenium-server</artifactId>
             <version>1.0-20081010.060147</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.12.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 
